@@ -1,74 +1,66 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
   <defs>
-    <linearGradient id="kraftPaper" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f5f0e6"/>
-      <stop offset="100%" stop-color="#ebe4d5"/>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f0e6"/>
+      <stop offset="1" stop-color="#e9e1d3"/>
     </linearGradient>
-    <pattern id="draftGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#ded5c4" stroke-width="0.8"/>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#d9cfbf" stroke-width="0.7"/>
     </pattern>
   </defs>
-  
-  <rect width="800" height="500" fill="url(#kraftPaper)"/>
-  <rect width="800" height="500" fill="url(#draftGrid)"/>
 
-  <!-- Architectural Drafting Border -->
-  <rect x="25" y="25" width="750" height="450" fill="none" stroke="#8d8171" stroke-width="1.2"/>
-  <rect x="30" y="30" width="740" height="440" fill="none" stroke="#c2b6a3" stroke-width="0.6"/>
+  <rect width="800" height="500" fill="url(#paper)"/>
+  <rect width="800" height="500" fill="url(#grid)"/>
+  <rect x="24" y="24" width="752" height="452" fill="none" stroke="#9c8e7b"/>
 
-  <!-- Header -->
-  <text x="50" y="60" fill="#b8582d" font-family="sans-serif" font-weight="700" font-size="11" letter-spacing="1">PROJECT 01 • EMBEDDED ASSISTIVE SYSTEM</text>
-  <text x="50" y="82" fill="#241e1b" font-family="sans-serif" font-weight="800" font-size="18">Smart Cane Sensor &amp; Haptic Subsystem</text>
+  <text x="50" y="62" fill="#a94f2b" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">EMBEDDED SYSTEMS • CONCEPT ILLUSTRATION</text>
+  <text x="50" y="96" fill="#29231e" font-family="Arial, sans-serif" font-size="25" font-weight="700">Smart Cane + Arduino Nano</text>
+  <text x="50" y="120" fill="#756a5d" font-family="Arial, sans-serif" font-size="13">Illustrative mockup — not a project photo</text>
 
-  <!-- Smart Cane Shaft & Chassis (Warm Charcoal & Terracotta) -->
-  <line x1="260" y1="120" x2="260" y2="430" stroke="#4a423a" stroke-width="12" stroke-linecap="round"/>
-  <line x1="260" y1="120" x2="260" y2="430" stroke="#b8582d" stroke-width="2" stroke-dasharray="6,4"/>
-  
-  <!-- Cane Handle -->
-  <path d="M260 150 C260 95, 200 95, 190 140" fill="none" stroke="#2c2621" stroke-width="14" stroke-linecap="round"/>
-  
-  <!-- Ultrasonic Sensor Mount -->
-  <rect x="240" y="230" width="40" height="65" rx="4" fill="#38312b" stroke="#8d8171" stroke-width="1.5"/>
-  <circle cx="260" cy="248" r="8" fill="#ede6da" stroke="#b8582d" stroke-width="2"/>
-  <circle cx="260" cy="275" r="8" fill="#ede6da" stroke="#b8582d" stroke-width="2"/>
-  
-  <!-- Acoustic Wave Pulses (Terracotta warm arcs) -->
-  <path d="M300 240 C320 230, 320 285, 300 280" fill="none" stroke="#b8582d" stroke-width="2" stroke-dasharray="3,3"/>
-  <path d="M330 225 C360 210, 360 305, 330 295" fill="none" stroke="#b8582d" stroke-width="2" stroke-dasharray="4,4" opacity="0.8"/>
-  <path d="M360 210 C400 190, 400 325, 360 310" fill="none" stroke="#b8582d" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
-  <text x="390" y="265" fill="#8c4724" font-family="sans-serif" font-size="11" font-weight="600">40 kHz Ultrasonic Pulse Cone</text>
+  <text x="108" y="175" fill="#756a5d" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1">ASSISTIVE CANE</text>
+  <path d="M225 224v178" fill="none" stroke="#413a32" stroke-width="14" stroke-linecap="round"/>
+  <path d="M225 241v158" fill="none" stroke="#bd6338" stroke-width="2" stroke-dasharray="6 7"/>
+  <path d="M225 245c0-68-72-79-98-39-9 14-5 33 10 41" fill="none" stroke="#302a24" stroke-width="14" stroke-linecap="round"/>
+  <path d="M214 403h22l-11 20z" fill="#413a32"/>
+  <circle cx="225" cy="291" r="19" fill="#f4eee4" stroke="#b8582d" stroke-width="2"/>
+  <path d="M216 291h18M225 282v18" stroke="#b8582d" stroke-width="2"/>
+  <text x="127" y="455" fill="#756a5d" font-family="Arial, sans-serif" font-size="12">Cane concept</text>
 
-  <!-- Microcontroller Board (Warm Olive & Kraft Brown) -->
-  <rect x="490" y="130" width="240" height="280" rx="6" fill="#3e4a36" stroke="#5b6c50" stroke-width="2"/>
-  <rect x="505" y="145" width="210" height="250" fill="#2d3627" stroke="#48563e" stroke-width="1"/>
-  
-  <!-- MCU Chip -->
-  <rect x="555" y="215" width="110" height="110" rx="4" fill="#1e241b" stroke="#6b7c61" stroke-width="1.5"/>
-  <text x="575" y="265" fill="#ede7dc" font-family="monospace" font-size="12" font-weight="700">ATmega328P</text>
-  <text x="590" y="285" fill="#a4b39b" font-family="monospace" font-size="10">Arduino IDE</text>
+  <path d="M290 300h64" stroke="#b8582d" stroke-width="2" stroke-dasharray="5 5"/>
+  <circle cx="290" cy="300" r="4" fill="#b8582d"/>
+  <circle cx="354" cy="300" r="4" fill="#b8582d"/>
 
-  <!-- Pins -->
-  <line x1="545" y1="235" x2="555" y2="235" stroke="#ded8cb" stroke-width="2"/>
-  <line x1="545" y1="255" x2="555" y2="255" stroke="#ded8cb" stroke-width="2"/>
-  <line x1="545" y1="275" x2="555" y2="275" stroke="#ded8cb" stroke-width="2"/>
-  <line x1="545" y1="295" x2="555" y2="295" stroke="#ded8cb" stroke-width="2"/>
-  <line x1="665" y1="235" x2="675" y2="235" stroke="#ded8cb" stroke-width="2"/>
-  <line x1="665" y1="255" x2="675" y2="255" stroke="#ded8cb" stroke-width="2"/>
-  <line x1="665" y1="275" x2="675" y2="275" stroke="#ded8cb" stroke-width="2"/>
-  <line x1="665" y1="295" x2="675" y2="295" stroke="#ded8cb" stroke-width="2"/>
+  <text x="395" y="175" fill="#756a5d" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1">MICROCONTROLLER</text>
+  <rect x="432" y="195" width="154" height="225" rx="10" fill="#365b48" stroke="#263f34" stroke-width="2"/>
+  <rect x="477" y="181" width="64" height="27" rx="5" fill="#b7b8b2" stroke="#6f746f" stroke-width="2"/>
+  <rect x="489" y="188" width="40" height="12" rx="2" fill="#747a76"/>
 
-  <!-- Wiring connections -->
-  <path d="M280 250 L420 250 L420 180 L490 180" fill="none" stroke="#b8582d" stroke-width="2"/>
-  <circle cx="490" cy="180" r="3" fill="#b8582d"/>
-  <text x="310" y="200" fill="#6d6052" font-family="sans-serif" font-size="10" font-weight="600">ECHO / TRIG SENSOR BUS</text>
+  <g fill="#d8c28a" stroke="#877653" stroke-width="0.6">
+    <rect x="420" y="222" width="12" height="9" rx="2"/>
+    <rect x="420" y="242" width="12" height="9" rx="2"/>
+    <rect x="420" y="262" width="12" height="9" rx="2"/>
+    <rect x="420" y="282" width="12" height="9" rx="2"/>
+    <rect x="420" y="302" width="12" height="9" rx="2"/>
+    <rect x="420" y="322" width="12" height="9" rx="2"/>
+    <rect x="420" y="342" width="12" height="9" rx="2"/>
+    <rect x="420" y="362" width="12" height="9" rx="2"/>
+    <rect x="586" y="222" width="12" height="9" rx="2"/>
+    <rect x="586" y="242" width="12" height="9" rx="2"/>
+    <rect x="586" y="262" width="12" height="9" rx="2"/>
+    <rect x="586" y="282" width="12" height="9" rx="2"/>
+    <rect x="586" y="302" width="12" height="9" rx="2"/>
+    <rect x="586" y="322" width="12" height="9" rx="2"/>
+    <rect x="586" y="342" width="12" height="9" rx="2"/>
+    <rect x="586" y="362" width="12" height="9" rx="2"/>
+  </g>
 
-  <path d="M260 150 L260 190 L430 190 L430 360 L490 360" fill="none" stroke="#606c38" stroke-width="2"/>
-  <circle cx="490" cy="360" r="3" fill="#606c38"/>
-  <text x="300" y="380" fill="#4f592e" font-family="sans-serif" font-size="10" font-weight="600">PWM HAPTIC BUZZER FEEDBACK</text>
+  <rect x="456" y="243" width="106" height="102" rx="5" fill="#252a27" stroke="#95a78b" stroke-width="1.5"/>
+  <text x="509" y="276" text-anchor="middle" fill="#e9e1d3" font-family="Arial, sans-serif" font-size="13" font-weight="700">ATmega328P</text>
+  <text x="509" y="299" text-anchor="middle" fill="#b9c8b0" font-family="Arial, sans-serif" font-size="11">8-bit MCU</text>
+  <path d="M478 316h62" stroke="#72836e" stroke-width="1"/>
+  <text x="509" y="334" text-anchor="middle" fill="#d9cfbf" font-family="Arial, sans-serif" font-size="10">NANO BOARD</text>
+  <text x="509" y="395" text-anchor="middle" fill="#f5f0e6" font-family="Arial, sans-serif" font-size="16" font-weight="700">ARDUINO NANO</text>
 
-  <!-- Technical Spec Footer -->
-  <rect x="50" y="420" width="190" height="34" fill="#ede6da" rx="3" stroke="#c4b8a7" stroke-width="1"/>
-  <text x="60" y="442" fill="#241e1b" font-family="sans-serif" font-size="10" font-weight="700">Obstacle Detection: 2cm - 400cm</text>
-
-  <text x="735" y="445" fill="#786f63" font-family="sans-serif" font-size="10" text-anchor="end">Engineering Schematic</text>
+  <rect x="50" y="437" width="700" height="24" rx="4" fill="#332d27"/>
+  <text x="400" y="454" text-anchor="middle" fill="#fffaf1" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0.7">ILLUSTRATION ONLY — NOT A PHOTO OF THE ACTUAL BUILD</text>
 </svg>

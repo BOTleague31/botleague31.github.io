@@ -225,7 +225,7 @@ document.addEventListener("DOMContentLoaded", () => {
     projectsContainer.innerHTML = projects.map(proj => `
       <article class="project-card">
         <div class="project-thumbnail-wrapper">
-          <img src="${proj.thumbnail}" alt="${escapeHtml(proj.title)} Preview" loading="lazy">
+          <img src="${proj.thumbnail}" alt="${escapeHtml(proj.thumbnailAlt || `${proj.title} Preview`)}" loading="lazy">
           <div class="project-badge-overlay">
             <span class="project-status-tag">${escapeHtml(proj.status)}</span>
           </div>

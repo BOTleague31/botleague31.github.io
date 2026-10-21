@@ -22,7 +22,6 @@ const PORTFOLIO_DATA = {
     email: "cw.serrato123@gmail.com",
     githubUrl: "https://github.com/BOTleague31",
     githubUsername: "BOTleague31",
-    linkedinUrl: "", // Optional: Add your LinkedIn profile URL here
     
     // Path to your portrait. Replace with "assets/images/profile.jpg" when available.
     profileImage: "https://raw.githubusercontent.com/BOTleague31/Portfolio-Images/main/IMG_20240417_224912.jpg",
@@ -156,13 +155,14 @@ const PORTFOLIO_DATA = {
   projects: [
     {
       id: "smart-cane",
-      title: "Smart Cane Assistive Navigation System",
+      title: "Smart Cane",
       category: "Embedded Systems & Assistive Tech",
       categoryKey: "embedded",
       status: "COMPLETED",
       statusType: "academic",
       period: "Academic Project",
       thumbnail: "assets/images/smart-cane.svg",
+      thumbnailAlt: "Illustration of a smart cane and Arduino Nano, not a photo of the actual build",
       shortDescription: "An embedded smart cane developed with Arduino IDE, involves fall detection, light sensors as well as audio reminders.",
       tools: ["Arduino IDE", "C++", "Arduino Nano"],
     },
@@ -175,7 +175,7 @@ const PORTFOLIO_DATA = {
       statusType: "academic",
       period: "Academic Project",
       thumbnail: "https://raw.githubusercontent.com/BOTleague31/Portfolio-Images/main/Screenshot%202026-10-21%20130244.png",
-      shortDescription: "Precision 2D technical CAD blueprint of a commercial corporate office detailing structured cabling, server room (MDF) layout, and workstation data drops.",
+      shortDescription: "A simple office layout drafted in AutoCAD.",
       tools: ["AutoCAD"],
     },
     {
@@ -183,45 +183,13 @@ const PORTFOLIO_DATA = {
       title: "3D Spatial Design & Real-Time Visualization",
       category: "3D Modeling & Visualization",
       categoryKey: "modeling",
-      status: "IN PROGRESS",
+      status: "COMPLETED",
       statusType: "concept",
       period: "Design Study",
       thumbnail: "https://raw.githubusercontent.com/BOTleague31/Portfolio-Images/main/661286734_1499808101506065_1491922472245276636_n.png",
       shortDescription: "3D structural modeling in SketchUp exported to Twinmotion for photorealistic lighting, dynamic weather, PBR material texturing, and spatial rendering.",
       tools: ["SketchUp", "Twinmotion", "3D Modeling", "Real-Time PBR", "Spatial Composition"],
-      overview: "An ongoing spatial study exploring the transition from clean volumetric 3D modeling into photorealistic architectural rendering. Structural masses are modeled in SketchUp and synchronized with Twinmotion's real-time lighting engine.",
-      problem: "Translating static conceptual geometry into an immersive, physically plausible space with accurate sunlight angles, material reflections, and contextual environment.",
-      solution: "Created an optimized polygon model in SketchUp with clean layer groups, then leveraged Twinmotion's lumen global illumination, physically based materials (PBR glass, concrete, wood), and sun azimuth controls.",
-      keyFeatures: [
-        "Clean volumetric modeling with precise spatial proportions in SketchUp",
-        "Twinmotion real-time scene synchronization and asset population",
-        "Solar study simulation matching geographic coordinates and daylight hours",
-        "High-resolution still renders and walk-through presentation camera paths"
-      ],
-      deliverables: ["SketchUp .SKP 3D model", "Twinmotion scene file", "High-res presentation stills (4K viewport)"]
     },
-    {
-      id: "botleague-portfolio",
-      title: "BOTleague Personal Portfolio & Design System",
-      category: "Web Development & Branding",
-      categoryKey: "dev",
-      status: "LIVE",
-      statusType: "live",
-      period: "Personal Project",
-      thumbnail: "assets/images/smart-cane.svg",
-      shortDescription: "A minimalist, responsive portfolio website built with clean semantic HTML5, modern CSS tokens, and JavaScript, hosted on GitHub Pages.",
-      tools: ["HTML5", "Modern CSS", "Vanilla JavaScript", "GitHub Pages", "Responsive UI"],
-      overview: "Designed and engineered as a modern, minimalist academic and personal branding website. Built without heavy dependencies to ensure ultra-fast load times, seamless accessibility, and effortless content maintenance via a centralized data file.",
-      problem: "Building a portfolio that reflects both engineering rigor and design sensitivity without falling into the trap of generic, bloated website templates.",
-      solution: "Engineered a custom design system featuring Swiss grid typography, dark/light theme switching, full keyboard accessibility, and a dedicated JSON/JS data configuration layer.",
-      keyFeatures: [
-        "Zero-dependency vanilla architecture deployable immediately to GitHub Pages",
-        "Persistent Dark and Light mode with system theme auto-detection",
-        "Accessible modal dialogs with focus trapping and keyboard navigation",
-        "Fully responsive layout optimized from 320px mobile to 4K monitors"
-      ],
-      deliverables: ["Open source GitHub repository", "Live GitHub Pages deployment", "Documentation README.md"]
-    }
   ],
 
   // --------------------------------------------------------------------------

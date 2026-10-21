@@ -200,7 +200,7 @@ const PORTFOLIO_DATA = {
     sectionTitle: "Contact",
     eyebrow: "Get in Touch",
     headline: "Want to reach me?",
-    subtext: "Message me on my email address. You can also check out my GitHub, and socials below",
+    subtext: "Message me on my email address. You can also check out my GitHub, and socials below.",
     email: "cw.serrato123@gmail.com",
     location: "Antipolo City, Rizal, Philippines",
     githubUrl: "https://github.com/BOTleague31",

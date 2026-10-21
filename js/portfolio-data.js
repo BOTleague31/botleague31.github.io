@@ -87,7 +87,6 @@ const PORTFOLIO_DATA = {
   // --------------------------------------------------------------------------
   // 3. TOOLS & TECHNICAL SKILLS
   // --------------------------------------------------------------------------
-  // Note: Following prompt guidelines, NO arbitrary skill percentages or fake progress bars are used.
   // Tools are categorized accurately with descriptions of actual usage.
   tools: [
     {

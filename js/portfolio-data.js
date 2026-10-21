@@ -3,9 +3,6 @@
  * PORTFOLIO CONFIGURATION DATA
  * Clark Wilson Serrato — BOTleague Portfolio
  * ==============================================================================
- * This file serves as the single source of truth for all content across the portfolio.
- * To update your personal information, tools, projects, or contact details,
- * simply edit the values below. You do not need to edit complex HTML.
  */
 
 const PORTFOLIO_DATA = {
@@ -28,7 +25,7 @@ const PORTFOLIO_DATA = {
     linkedinUrl: "", // Optional: Add your LinkedIn profile URL here
     
     // Path to your portrait. Replace with "assets/images/profile.jpg" when available.
-    profileImage: "assets/images/profile-placeholder.svg",
+    profileImage: "https://raw.githubusercontent.com/BOTleague31/Portfolio-Images/main/IMG_20240417_224912.jpg",
 
     // Hero Section Copy
     heroEyebrow: "Engineering • Design • Technology • Development",
@@ -189,7 +186,7 @@ const PORTFOLIO_DATA = {
       status: "IN PROGRESS",
       statusType: "concept",
       period: "Design Study",
-      thumbnail: "assets/images/twinmotion-render.svg",
+      thumbnail: "https://raw.githubusercontent.com/BOTleague31/Portfolio-Images/main/661286734_1499808101506065_1491922472245276636_n.png",
       shortDescription: "3D structural modeling in SketchUp exported to Twinmotion for photorealistic lighting, dynamic weather, PBR material texturing, and spatial rendering.",
       tools: ["SketchUp", "Twinmotion", "3D Modeling", "Real-Time PBR", "Spatial Composition"],
       overview: "An ongoing spatial study exploring the transition from clean volumetric 3D modeling into photorealistic architectural rendering. Structural masses are modeled in SketchUp and synchronized with Twinmotion's real-time lighting engine.",

@@ -174,7 +174,7 @@ const PORTFOLIO_DATA = {
       status: "COMPLETED",
       statusType: "academic",
       period: "Academic Project",
-      thumbnail: "assets/images/autocad-floorplan.svg",
+      thumbnail: "https://raw.githubusercontent.com/BOTleague31/Portfolio-Images/main/Screenshot%202026-10-21%20130244.png",
       shortDescription: "Precision 2D technical CAD blueprint of a commercial corporate office detailing structured cabling, server room (MDF) layout, and workstation data drops.",
       tools: ["AutoCAD"],
     },

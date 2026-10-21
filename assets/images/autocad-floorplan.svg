@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="planBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6f2e8"/>
+      <stop offset="100%" stop-color="#ede7db"/>
+    </linearGradient>
+    <pattern id="planGrid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#ddd6c8" stroke-width="0.8"/>
+    </pattern>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#planBg)"/>
+  <rect width="800" height="500" fill="url(#planGrid)"/>
+
+  <!-- Architectural Frame -->
+  <rect x="25" y="25" width="750" height="450" fill="none" stroke="#7d7263" stroke-width="1.2"/>
+  <rect x="30" y="30" width="740" height="440" fill="none" stroke="#baaf9e" stroke-width="0.6"/>
+
+  <!-- Header -->
+  <text x="50" y="60" fill="#b8582d" font-family="sans-serif" font-weight="700" font-size="11" letter-spacing="1">PROJECT 02 • AUTOCAD 2D TECHNICAL DRAFT</text>
+  <text x="50" y="82" fill="#241e1b" font-family="sans-serif" font-weight="800" font-size="18">Commercial Office Floor Plan &amp; Structured Cabling</text>
+
+  <!-- Architectural Outer Wall (Rich Charcoal Ink) -->
+  <rect x="80" y="110" width="640" height="300" fill="#fcfaf7" stroke="#2b2520" stroke-width="4"/>
+
+  <!-- Server / MDF Room (Terracotta Accent Border) -->
+  <rect x="80" y="110" width="180" height="150" fill="#ede5d8" stroke="#b8582d" stroke-width="2"/>
+  <text x="95" y="135" fill="#9b431d" font-family="sans-serif" font-size="11" font-weight="700">RM-101: MDF / SERVER</text>
+  <!-- Equipment Racks -->
+  <rect x="100" y="150" width="50" height="90" fill="#2b2520" stroke="#7d7263" stroke-width="1"/>
+  <rect x="160" y="150" width="50" height="90" fill="#2b2520" stroke="#7d7263" stroke-width="1"/>
+  <text x="108" y="200" fill="#ede7dc" font-family="sans-serif" font-size="9" font-weight="600">RACK A</text>
+  <text x="168" y="200" fill="#ede7dc" font-family="sans-serif" font-size="9" font-weight="600">RACK B</text>
+
+  <!-- Conference Room -->
+  <rect x="80" y="260" width="220" height="150" fill="none" stroke="#2b2520" stroke-width="2"/>
+  <text x="95" y="285" fill="#575047" font-family="sans-serif" font-size="11" font-weight="600">RM-102: CONF ROOM</text>
+  <!-- Conference Table -->
+  <rect x="130" y="310" width="120" height="55" rx="18" fill="#e4ddd0" stroke="#7d7263" stroke-width="1.5"/>
+  <circle cx="190" cy="337" r="4" fill="#b8582d"/>
+  <text x="160" y="356" fill="#b8582d" font-family="sans-serif" font-size="8" font-weight="600">DATA DROP</text>
+
+  <!-- Open Workstations Area -->
+  <rect x="330" y="135" width="365" height="250" fill="none" stroke="#baaf9e" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="345" y="160" fill="#575047" font-family="sans-serif" font-size="11" font-weight="600">OPEN WORKSTATIONS (POD 1-4)</text>
+
+  <!-- Workstations -->
+  <rect x="360" y="180" width="70" height="42" fill="#ede5d8" stroke="#7d7263" stroke-width="1"/>
+  <rect x="440" y="180" width="70" height="42" fill="#ede5d8" stroke="#7d7263" stroke-width="1"/>
+  <rect x="360" y="235" width="70" height="42" fill="#ede5d8" stroke="#7d7263" stroke-width="1"/>
+  <rect x="440" y="235" width="70" height="42" fill="#ede5d8" stroke="#7d7263" stroke-width="1"/>
+  <rect x="560" y="180" width="70" height="42" fill="#ede5d8" stroke="#7d7263" stroke-width="1"/>
+  <rect x="560" y="235" width="70" height="42" fill="#ede5d8" stroke="#7d7263" stroke-width="1"/>
+
+  <!-- Network Cabling Trays (Warm Sage Green) -->
+  <path d="M210 190 L310 190 L310 205 L560 205" fill="none" stroke="#4d6b46" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <path d="M310 205 L310 260 L560 260" fill="none" stroke="#4d6b46" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <path d="M210 190 L210 337 L190 337" fill="none" stroke="#4d6b46" stroke-width="2.5" stroke-dasharray="6,3"/>
+
+  <!-- Drops -->
+  <circle cx="395" cy="201" r="3" fill="#4d6b46"/>
+  <circle cx="475" cy="201" r="3" fill="#4d6b46"/>
+  <circle cx="395" cy="256" r="3" fill="#4d6b46"/>
+  <circle cx="475" cy="256" r="3" fill="#4d6b46"/>
+  <circle cx="595" cy="201" r="3" fill="#4d6b46"/>
+  <circle cx="595" cy="256" r="3" fill="#4d6b46"/>
+
+  <!-- Dimension line -->
+  <line x1="80" y1="430" x2="720" y2="430" stroke="#7d7263" stroke-width="1"/>
+  <line x1="80" y1="425" x2="80" y2="435" stroke="#7d7263" stroke-width="1"/>
+  <line x1="720" y1="425" x2="720" y2="435" stroke="#7d7263" stroke-width="1"/>
+  <text x="370" y="443" fill="#575047" font-family="sans-serif" font-size="10" font-weight="600">DIMENSION: 24.50m (SCALE 1:100)</text>
+
+  <!-- Legend -->
+  <rect x="535" y="325" width="160" height="42" fill="#ede5d8" stroke="#4d6b46" stroke-width="1"/>
+  <text x="545" y="342" fill="#32472e" font-family="sans-serif" font-size="9" font-weight="700">STRUCTURED CABLING</text>
+  <text x="545" y="356" fill="#575047" font-family="sans-serif" font-size="8">TIA/EIA-568-C Cat6 UTP</text>
+</svg>

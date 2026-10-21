@@ -1,4 +1,4 @@
-# BOTleague — Personal Portfolio Website
+# my-portfolio — BOTleague Personal Portfolio Website
 ### Clark Wilson Serrato | 4th Year Computer Engineering Student
 **Academic Portfolio & Personal Branding**
 
@@ -136,36 +136,22 @@ Visitors can click to visit your profiles directly or copy your email address to
 
 ## 🚀 How to Deploy to GitHub Pages
 
-Because your repository is located at `https://github.com/BOTleague31`, you can deploy this website for free in under 2 minutes:
-
-### Step 1: Initialize Git and Commit
-Open PowerShell or your terminal in this `botleague-portfolio` directory:
+The portfolio is hosted in [`BOTleague31/my-portfolio`](https://github.com/BOTleague31/my-portfolio). To publish changes, commit them and push to `main`:
 ```powershell
-cd d:\Projects\botleague-portfolio
-git init
 git add .
-git commit -m "feat: complete BOTleague portfolio with modern design system"
+git commit -m "Describe your changes"
+git push origin main
 ```
 
-### Step 2: Push to GitHub
-Create a new public repository on GitHub named `portfolio` (or `BOTleague31.github.io` for a root user page):
-```powershell
-git branch -M main
-git remote add origin https://github.com/BOTleague31/portfolio.git
-git push -u origin main
-```
-
-### Step 3: Enable GitHub Pages in Repository Settings
-1. Go to your repository on GitHub: `https://github.com/BOTleague31/portfolio`
+To enable GitHub Pages:
+1. Go to your repository on GitHub: `https://github.com/BOTleague31/my-portfolio`
 2. Click **Settings** (top tab).
 3. In the left sidebar, click **Pages**.
 4. Under **Build and deployment > Source**, choose **Deploy from a branch**.
 5. Under **Branch**, select `main` and folder `/ (root)`.
 6. Click **Save**.
 7. In about 60 seconds, your site will be live at:
-   `https://botleague31.github.io/portfolio/`
-
-*(If you named your repository `BOTleague31.github.io`, your URL will be `https://botleague31.github.io/`)*
+   `https://botleague31.github.io/my-portfolio/`
 
 ---
 
